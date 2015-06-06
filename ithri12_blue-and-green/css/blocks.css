@@ -1,0 +1,178 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	padding: 10px;
+	width : 200px;
+	padding-top:0px;
+	padding-left: 0px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+   
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle1 {
+    color : #000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height:55px;
+	background: 				url("../img/left.png") no-repeat;
+	padding-top:15px;
+	
+	} 
+#xo-canvas-leftcolumn h3.xo-blocktitle2 {
+    color : #CD2525;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height:25px;
+	background: 				url("../img/left1.png") no-repeat;
+	padding-top:15px;
+	} 
+#xo-canvas-leftcolumn h3.xo-blocktitle3 {color :#0033CC; 
+    
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height:25px;
+	background: 				url("../img/left2.png") no-repeat;
+	padding-top:15px;
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding-left: 8px;
+	padding-bottom: 8px;
+	color:#00008B;
+	 background:  url("../img/leftco.png") top ;
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	width : 200px;
+	padding-left: 0px;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	padding-top:0px;
+}
+
+
+#xo-canvas-rightcolumn h3.xo-blocktitle1, 
+#xo-canvas-rightcolumn h3.xo-blocktitle2, 
+#xo-canvas-rightcolumn  h3.xo-blocktitle3 { 
+  padding-top:8px; 
+  font-size : 1.1em; 
+  font-weight : bold;
+  background: 				url("../img/right.png") no-repeat ;
+  text-align:center;
+  height:40px;  
+} 
+#xo-canvas-rightcolumn h3.xo-blocktitle1 {color : #F4F4F4;} 
+#xo-canvas-rightcolumn h3.xo-blocktitle2 {color : #fff;} 
+#xo-canvas-rightcolumn h3.xo-blocktitle3 {color : #FFFF00;} 
+
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color:#00008B;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	background:  url("../img/content.png") top repeat-y;
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#000;
+  font-weight: bold;
+    border-bottom: 2px solid  #191970;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  border-bottom: 2px solid  #191970;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 10px;
+  color: #000;
+  font-weight: bold;
+   padding-left: 20px;
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+#xo-topleftblocks{border-right:;  }
+ #xo-bottomrightblocks {border-left:;}
+ 
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px;
+  font-size: .8em; 
+  font-weight:					bold;
+  color:#191970;
+	
+}
+#mainmenu a .highlight {background-color: #fcc;}
+#mainmenu a:hover {color:#009ACD;}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+padding-left: 15px;
+font-size: .8em; 
+	 font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 25px; color:#CC6600 ;
+  font-size: .7em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+padding-bottom:20px;
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+}
+#usermenu a:hover {color:#009ACD}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+
+
